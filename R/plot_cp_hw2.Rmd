@@ -1,0 +1,33 @@
+---
+title: "plot_cp_hw1"
+author: "Cole Spinale"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(devtools)
+library(dplyr)
+library(ggplot2)
+library(plotcppackage)
+```
+
+```{r}
+getwd()
+setwd("C:/Users/caspi/OneDrive/Desktop/Umass/Fall2024/rclass/hw2/plotcppackage")
+```
+
+
+```{r}
+dat <- "R/data/dat.csv"
+est <- "R/data/est.csv"
+```
+
+
+```{r}
+plot_cp(dat, est, iso_code = 4)
+plot_cp(dat, est, iso_code = 4, CI = NA)
+plot_cp(dat, est, iso_code = 404, CI = 80)
+```
+
