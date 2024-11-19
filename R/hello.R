@@ -58,4 +58,4 @@ plot_cp <- function(dat, est, iso_code, CI = 95) {
 
   print(chart)
 }
-
+getwd()
