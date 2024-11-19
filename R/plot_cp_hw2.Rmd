@@ -11,6 +11,8 @@ library(devtools)
 library(dplyr)
 library(ggplot2)
 library(plotcppackage)
+getwd()
+setwd("C:/Users/caspi/OneDrive/Desktop/Umass/Fall2024/rclass/hw2/plotcppackage")
 ```
 
 
