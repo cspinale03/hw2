@@ -13,12 +13,6 @@ library(ggplot2)
 library(plotcppackage)
 ```
 
-```{r}
-getwd()
-setwd("C:/Users/caspi/OneDrive/Desktop/Umass/Fall2024/rclass/hw2/plotcppackage")
-getwd()
-```
-
 
 ```{r}
 dat <- "data/dat.csv"
